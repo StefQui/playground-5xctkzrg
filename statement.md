@@ -4,7 +4,7 @@ Stream's map method is intermediate operation and consumes single element forom 
 
 It simply used to convert Stream of one type to another.
 
-
+![Java 8 Stream Map](https://java2blog.com/wp-content/uploads/2017/10/Java8StreamMap.png)
 
 
 
