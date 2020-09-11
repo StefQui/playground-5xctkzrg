@@ -4,8 +4,14 @@ Stream's map method is intermediate operation and consumes single element forom 
 
 It simply used to convert Stream of one type to another.
 
-![Java 8 Stream Map](https://java2blog.com/wp-content/uploads/2017/10/Java8StreamMap.png)
+Let's see method signature of Stream's map method.
 
+```java
+<R> Stream<R>	map(Function<? super T,? extends R>mapper)
+```
+Map function applies the mapper function on input Stream and generates the output Stream.
+
+Here mapper function is funtional interface which takes one input and provides one output.
 
 
 # Welcome!
