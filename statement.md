@@ -1,3 +1,5 @@
+In this playground, we will see about Java 8 Stream Map.
+
 # Welcome!
 
 This Java template lets you get started quickly with a simple one-page playground.
