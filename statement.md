@@ -93,7 +93,12 @@ Sam
 </pre>
 As you can see, we have used map to convert Stream<Student> to Stream<String> to retrieve list of student Names.
 
-You can use <a href="https://java2blog.com/java-8-method-reference/" target="_blank" rel="noopener noreferrer">method reference</a> to at line no.17 as below
+You can use <a href="https://java2blog.com/java-8-method-reference/" target="_blank" rel="noopener noreferrer">method reference</a> as below
+```java
+List<String> listOfStudentNames=listOfStudents.stream()
+										.map(Student::getName()) 
+										.collect(Collectors.toList());
+```
 
 Other Java 8 tutorials you may also like:
 <ul>
