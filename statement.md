@@ -13,7 +13,7 @@ Map function applies the mapper function on input Stream and generates the outpu
 
 Here mapper function is funtional interface which takes one input and provides one output.
 
-![Stream map](https://java2blog.com/java-8-stream-map/)
+![Stream map](https://java2blog.com/wp-content/uploads/2020/05/StreamMap.svg)
 # Welcome!
 
 This Java template lets you get started quickly with a simple one-page playground.
