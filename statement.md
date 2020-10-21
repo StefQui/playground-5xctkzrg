@@ -1,6 +1,6 @@
 In this playground, we will see about Java 8 Stream Map.
 
-Stream's map method is intermediate operation and consumes single element forom input Stream and produces single element to output Stream.
+<a href="https://java2blog.com/java-8-stream/" target="_blank" rel="noopener noreferrer">Java 8 Stream</a>'s map method is intermediate operation and consumes single element forom input Stream and produces single element to output Stream.
 
 It simply used to convert Stream of one type to another.
 
@@ -9,30 +9,79 @@ Let's see method signature of Stream's map method.
 ```java
 <R> Stream<R>	map(Function<? super T,? extends R>mapper)
 ```
-Map function applies the mapper function on input Stream and generates the output Stream.
+Map applies the mapper function on input Stream and generates the output Stream.
 
 Here mapper function is funtional interface which takes one input and provides one output.
 
 ![Stream map](https://java2blog.com/wp-content/uploads/2020/05/StreamMap.svg)
-# Welcome!
 
-This Java template lets you get started quickly with a simple one-page playground.
+Let's understand with the help of example.
 
-```java runnable
-// { autofold
-public class Main {
+Create a class named Student which will have two attributes name and age.
+```java
+package org.tech.io;
 
-public static void main(String[] args) {
-// }
-
-String message = "Hello World!";
-System.out.println(message);
-
-//{ autofold
+public class Student {
+	
+	String name;
+	int age;
+	
+	public Student(String name, int age) {
+		super();
+		this.name = name;
+		this.age = age;
+	}
+	
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public int getAge() {
+		return age;
+	}
+	public void setAge(int age) {
+		this.age = age;
+	}
 }
 
-}
-//}
 ```
-
+Create main class named StreamMapMain.java
+```java
+package org.tech.io;
+ 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.stream.Collectors;
+ 
+public class StreamMapMain {
+ 
+	public static void main(String args[])
+	{
+		List<Student> listOfStudents = createListOfStudents();
+		
+		// Using map function to convert Stream<Student> to Stream<String>
+		List<String> listOfStudentNames=listOfStudents.stream()
+										.map(s -> s.getName()) 
+										.collect(Collectors.toList());
+		listOfStudentNames.forEach(System.out::println);
+	}		
+	
+	public static List<Student> createListOfStudents()
+	{
+		List<Student> listOfStudents=new ArrayList<>();
+		Student s1= new Student("Anchit",20);
+		Student s2= new Student("Peter",19);
+		Student s3= new Student("Martin",22);
+		Student s4= new Student("Sam",21);
+		listOfStudents.add(s1);
+		listOfStudents.add(s2);
+		listOfStudents.add(s3);
+		listOfStudents.add(s4);
+		return listOfStudents;
+	}
+}
+ 
+```
 
