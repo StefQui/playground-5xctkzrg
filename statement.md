@@ -11,7 +11,7 @@ Let's see method signature of Stream's map method.
 ```
 Map applies the mapper function on input Stream and generates the output Stream.
 
-Here mapper function is funtional interface which takes one input and provides one output.
+Here mapper function is <a href="https://java2blog.com/java-8-functional-interface-example/" target="_blank" rel="noopener noreferrer">functional interface</a> which takes one input and provides one output.
 
 ![Stream map](https://java2blog.com/wp-content/uploads/2020/05/StreamMap.svg)
 
@@ -84,4 +84,22 @@ public class StreamMapMain {
 }
  
 ```
+When you will run above program, you will get below output:
+<pre>
+Anchit
+Peter
+Martin
+Sam
+</pre>
+As you can see, we have used map to convert Stream<Student> to Stream<String> to retrieve list of student Names.
+
+You can use method reference to at line no.17 as below
+
+Other Java 8 tutorials you may also like:
+<ul>
+<a href="https://java2blog.com/java-8-tutorial/" target="_blank" rel="noopener noreferrer">Java 8 tutorial</a>
+<a href="https://java2blog.com/java-8-parallel-stream/" target="_blank" rel="noopener noreferrer">Java 8 Parallel Stream</a>
+<a href="https://java2blog.com/java-8-interview-questions/" target="_blank" rel="noopener noreferrer">Java 8 interview questions</a>
+<a href="https://java2blog.com/lambda-expressions-in-java-8/" target="_blank" rel="noopener noreferrer">Java 8 lambda expression</a>
+</ul>
 
