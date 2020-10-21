@@ -13,7 +13,7 @@ Map applies the mapper function on input Stream and generates the output Stream.
 
 Here mapper function is <a href="https://java2blog.com/java-8-functional-interface-example/" target="_blank" rel="noopener noreferrer">functional interface</a> which takes one input and provides one output.
 
-![Stream map](https://java2blog.com/wp-content/uploads/2020/05/StreamMap.svg)
+![Stream map](https://java2blog.com/wp-content/uploads/2020/10/StreamMap.jpg)
 
 Let's understand with the help of example.
 
