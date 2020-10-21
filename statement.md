@@ -97,9 +97,9 @@ You can use method reference to at line no.17 as below
 
 Other Java 8 tutorials you may also like:
 <ul>
-<a href="https://java2blog.com/java-8-tutorial/" target="_blank" rel="noopener noreferrer">Java 8 tutorial</a>
-<a href="https://java2blog.com/java-8-parallel-stream/" target="_blank" rel="noopener noreferrer">Java 8 Parallel Stream</a>
-<a href="https://java2blog.com/java-8-interview-questions/" target="_blank" rel="noopener noreferrer">Java 8 interview questions</a>
-<a href="https://java2blog.com/lambda-expressions-in-java-8/" target="_blank" rel="noopener noreferrer">Java 8 lambda expression</a>
+<li><a href="https://java2blog.com/java-8-tutorial/" target="_blank" rel="noopener noreferrer">Java 8 tutorial</a></li>
+<li><a href="https://java2blog.com/java-8-parallel-stream/" target="_blank" rel="noopener noreferrer">Java 8 Parallel Stream</a></li>
+<li><a href="https://java2blog.com/java-8-interview-questions/" target="_blank" rel="noopener noreferrer">Java 8 interview questions</a></li>
+<li><a href="https://java2blog.com/lambda-expressions-in-java-8/" target="_blank" rel="noopener noreferrer">Java 8 lambda expression</a></li>
 </ul>
 
